@@ -1,0 +1,460 @@
+html{
+    background-color: DEEPSKYBLUE;
+}
+body{
+   background-color: DEEPSKYBLUE;   
+}
+
+header{
+    color: white;
+    box-shadow: 0px 5px 100px 10px DEEPSKYBLUE;
+   /* margin-top: 15px; */
+    margin-bottom: 50px;
+    background-color: DEEPSKYBLUE;
+    height: 40px;
+    font-size: 50px;
+    padding-left: 30px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.current p,canvas{
+    display:inline-block;
+}
+.current p{
+    margin: 10px;
+}
+span{
+    font-weight: bold;
+}
+#mapping {
+   margin: 0;
+   padding: 0;
+    width: 100%;
+   height: 450px;
+   max-width: none;
+}
+#mapping img {
+   max-width: none !important;
+}
+#location{
+    border:none;
+    border-bottom: 2px solid white !important;
+    background-color: inherit; 
+    margin: 10px;
+    height: 50px;
+    width: 80%;
+    position: relative;
+     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+     color: white;
+     font-size: 20px;
+
+    
+}
+.homeDiv{
+    height:auto; 
+    overflow:auto;
+}
+.homeDiv div{
+    height: 100vh;
+}
+div.dailyblock.row{
+    bottom: 0 ;
+    position: relative;
+    
+}
+.pac-container{
+    background-color: DARKCYAN;
+    opacity: 0.9;
+}
+.pac-item{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: black;
+    font-size: 15px;
+}
+.attr{
+    font-size: 18px;
+    color: black;
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+.attr a{
+    color: white;
+}
+*::-webkit-input-placeholder {
+    color: white;
+}
+*:-moz-placeholder {
+    color: white;
+}
+*::-moz-placeholder {
+    color: white;
+}
+*:-ms-input-placeholder {
+    color: white;
+}
+span{
+    color: white;
+    font-size: 18px;
+}
+.current{
+    color: black;
+    font-size: 20px;
+}
+.current span p {
+    float: right;
+}
+.current #icon{
+    margin: auto;
+}
+.dBlocks:hover{
+    cursor: pointer;
+}
+.close {
+    margin-left: 1%;
+    margin-top: 1.2%;
+	background: black;
+	color: #FFFFFF;
+	line-height: 40px;
+	position: fixed;
+	left: 0px;
+	text-align: center;
+	top: 5;
+	width: 40px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { 
+    background: white; 
+}
+#iconD{
+    position: relative;
+    top:5;
+    right: 0;
+}
+#about{
+    color: white;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 25px;
+    text-align: justify;
+    
+}
+
+@media only screen and (max-width :361px ){
+    header{
+        padding: 0; 
+    margin-top: 30px;
+    height: 20px;
+    font-size: 95%;
+    font-weight: bold;
+    margin-bottom: 10px;
+        text-align: center;
+
+}
+   #location{
+    margin: auto;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    font-size: 20px;   
+} 
+    #about{
+        margin-top: 20px;
+        font-size:18px;
+    }
+    
+    .attr{
+        font-size: 15px;
+        font-weight: bold;
+        position: static;
+        margin: auto;
+        bottom: 0;
+        text-align: center;
+    }
+    .current{
+    font-size: 15px;
+        font-weight: bold;
+    text-align: center;
+}
+    #mapping{
+    width: auto;
+    height: 300px;
+    }
+    .dBlocks{
+        text-align: center;
+        border: 2px solid white;
+        padding-top: 5px;
+        margin: 0 15px 0 15px;
+        background-color: DEEPSKYBLUE;
+    }
+    .close {
+	line-height: 25px;
+	width: 25px;
+        position: absolute;
+}
+    .dBlocks:hover{
+    cursor: pointer;
+}
+}
+@media only screen and (min-width :362px) and (max-width : 768px) {
+    header{
+    padding: 0; 
+    margin-top: 30px;
+    height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+        text-align: center;
+
+}
+   #location{
+    margin: auto;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    font-size: 20px;   
+} 
+    #about{
+        margin-top: 20px;
+        font-size:18px;
+    }
+    
+    .attr{
+        font-size: 15px;
+        font-weight: bold;
+        position: static;
+        margin: auto;
+        bottom: 0;
+        text-align: center;
+    }
+    .current{
+    font-size: 15px;
+        font-weight: bold;
+    text-align: center;
+}
+    #mapping{
+    width: auto;
+    height: 300px;
+    }
+    .dBlocks{
+        text-align: center;
+        border: 2px solid white;
+        padding-top: 5px;
+        margin: 0 15px 0 15px;
+        background-color: DEEPSKYBLUE;
+    }
+    .close {
+	line-height: 25px;
+	width: 25px;
+        position: absolute;
+}
+    .dBlocks:hover{
+    cursor: pointer;
+}
+    }
+@media only screen and (min-width :769px) and (max-width : 800px) {
+    header{
+    padding: 0; 
+    margin-top: 30px;
+    height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+        text-align: center;
+
+}
+   #location{
+    margin: auto;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    font-size: 20px;   
+} 
+    #about{
+        margin-top: 20px;
+        font-size:18px;
+    }
+    
+    .attr{
+        font-size: 15px;
+        font-weight: bold;
+        position: static;
+        margin: auto;
+        bottom: 0;
+        text-align: center;
+    }
+    .current{
+    font-size: 15px;
+        font-weight: bold;
+    text-align: center;
+}
+    #mapping{
+    width: auto;
+    height: 300px;
+    }
+    .dBlocks{
+        text-align: center;
+        border: 2px solid white;
+        padding-top: 5px;
+        margin: 0 15px 0 15px;
+        background-color: DEEPSKYBLUE;
+    }
+    .close {
+	line-height: 25px;
+	width: 25px;
+        position: absolute;
+}
+    .dBlocks:hover{
+    cursor: pointer;
+}
+    }
+@media only screen and (min-width :801px) and (max-width : 980px) {
+    header{
+   padding: 0; 
+    margin-top: 30px;
+    height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+        text-align: center;
+
+}
+   #location{
+    margin: auto;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    font-size: 20px;   
+} 
+    #about{
+        margin-top: 20px;
+        font-size:18px;
+    }
+    
+    .attr{
+        font-size: 15px;
+        font-weight: bold;
+        position: static;
+        margin: auto;
+        bottom: 0;
+        text-align: center;
+    }
+    .current{
+    font-size: 15px;
+        font-weight: bold;
+    text-align: center;
+}
+    #mapping{
+    width: auto;
+    height: 300px;
+    }
+    .dBlocks{
+        text-align: center;
+        border: 2px solid white;
+        padding-top: 5px;
+        margin: 0 15px 0 15px;
+        background-color: DEEPSKYBLUE;
+    }
+    .close {
+	line-height: 25px;
+	width: 25px;
+        position: absolute;
+}
+    .dBlocks:hover{
+    cursor: pointer;
+}
+    }
+@media only screen and (min-width :980px) and (max-width :991px) {
+   header{
+   padding: 0; 
+    margin-top: 30px;
+    height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+        text-align: center;
+
+}
+   #location{
+    margin: auto;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    font-size: 20px;   
+} 
+    #about{
+        margin-top: 20px;
+        font-size:18px;
+    }
+    
+    .attr{
+        font-size: 15px;
+        font-weight: bold;
+        position: static;
+        margin: auto;
+        bottom: 0;
+        text-align: center;
+    }
+    .current{
+    font-size: 15px;
+        font-weight: bold;
+    text-align: center;
+}
+    #mapping{
+    width: auto;
+    height: 300px;
+    }
+    .dBlocks{
+        display: inline-block;
+        text-align: center;
+        border: 2px solid white;
+        padding-top: 5px;
+        margin: 0 27px 0 27px;
+        background-color: DEEPSKYBLUE;
+    }
+    .close {
+        padding: 0;
+	line-height: 25px;
+	width: 25px;
+    position: absolute;
+}
+    .dBlocks:hover{
+    cursor: pointer;
+}
+    }
+@media only screen and (min-width :991px) and (max-width :1336px) {
+   header{
+   
+    font-size: 34px;
+       margin-top: 15px;
+}
+    #about{
+        margin-top: 20px;
+        font-size:18px;
+    }
+    .current{
+    color: black;
+    font-size: 15px;
+}
+    #mapping{
+    width: auto;
+    height: 350px;
+    font-weight: bold;
+    }
+    .close{
+        margin-top: 20px;
+    }
+    .dBlocks:hover{
+    cursor: pointer;
+}
+    
+    }
